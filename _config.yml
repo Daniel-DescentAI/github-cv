@@ -6,41 +6,20 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
+name: Daniel Miller
+title: Machine Learning Engineer
+email: daniel@descentai.dev
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+github_username: Daniel-DescentAI
+linkedin_username: daniel-miller-439977262
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+- title: Medium
+  icon: fab fa-medium
+  url: https://medium.com/@danielmillerAI
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,66 +29,145 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile_1.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Machine Learning Engineer and consultant with track record of delivering across startups and FTSE-100 organisations.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I blend engineering expertise, research and business acumen to deliver solutions that are appropriate for the scale of the problem. My work spans computer vision, Generative AI, NLP and time series classification.
 
+  Beyond this I've published contributions to Towards Data Science on [reinforcement learning](https://medium.com/data-science/using-offline-reinforcement-learning-to-trial-online-platform-interventions-b72ab22f71c0) and am increasingly focused on the organisation hurdles that prevent delivery of successful AI projects.
+
+  If you're looking for help with your AI project, [please get in touch](mailto:daniel@descentai.dev).
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+  - title: Consulting Projects
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: center
+        title: TRACR
+        sub_title: Computer Vision Project
+        caption: April 2024 - Present
+        link: https://tracr.com/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Blockchain and computer vision project for matching diamonds through the manufacturing process.
+        description: |
+          Joined TRACR to take ownership of computer vision platform for diamond matching.
+
+          Reduced average matching latency from 3 minutes to 30 seconds and increased throughput by 300%. This alongside improvements to precision and recall were instrumental to multi-million dollar engagement with Sarine Technologies.
+
+          Developed data quality standards for 3D Diamond geometries that have been adopted across the industry.
+
+          Designed and implemented experimental framework for evaluating computer vision models and simulating matching scenarios.
+
+      - layout: center
+        title: Artanis AI
+        sub_title: LLM Powered Meeting Summariser
+        caption: March 2025 - August 2025
+        link: https://artanis.ai/
+        quote: >
+          Startup focusing on AI alignment in enterprise contexts.
+        description: |
+          Worked with CTO to deliver LLM powered meeting summariser for HG Capital.
+
+          Developed evaluation framework and inference pipeline and overall project infrastructure. Worked with researchers to improve Jaccard similarity for meeting summarisation from 67% to 98%.
+
+          Project successfully delivered to HG Capital with Artanis completing demonstration at HG Portfolio conference.
+
+  - title: Industry Experience
+    layout: list
+    content:
+      - layout: center
+        title: easyJet
+        sub_title: Senior Machine Learning Engineer
+        caption: Jan 2023 -> April 2024
+        link: https://www.easyjet.com/
+        quote: >
+          FTSE-100 budget airline and travel operator.
+        description: |
+          Joined organisation as first dedicated ML engineer.
+
+          Developed use-case agnostic MLOPs and experimentation framework that rolled out across entire data science organisation. Use cases included overbooking and stock regression.
+
+          Contributions to the business recognised through nomination for technical excellence award in December 2024.
+
+      - layout: center
+        title: Dunelm
+        sub_title: Senior Data and ML Engineer
+        caption: May 2021 -> December 2022
+        link: https://www.dunelm.com/
+        quote: >
+          FTSE-250 furniture and homewares retailer.
+        description: |
+          Lead MLOPs initialisation and deployment of first use case [customer churn prediction]. Deployment facilitated automation of all discount allocation over email.
+
+          Facilitator of mentorship program for junior engineers and acted as point of call for training exercises and team assimilation.
+
+      - layout: center
+        title: Other Experience
+        sub_title: Various
+        caption: September 2018 -> May 2022
+        quote: >
+          Various
+        description: |
+          Sainsbury's [December 2019 -> May 2021]
+            - Productionised machine learning pipelines for customer segmentation.
+            - Productionised multi-million pound pipeline for data anonymisation and extraction to third parties.
+            - Designed and developed a feature store that integrated data science outputs into the general Snowflake ecosystem.
+
+          SG Digital [September 2018 -> November 2019]
+            - First job in tech as a DevOps Engineer. Within 6 months contributing to on-call rota.
+            - Developed software for Caesars Entertainment for reward points redemption that deployed to their online platform.
+
+
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout:
+        title: University of Edinburgh
+        sub_title: MSc Data Science [Distinction]
+        caption: September 2020 -> July 2023
         quote: >
-          Short institution or course description (optional)
+          MSc Data Science completed whilst working full-time.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          - Topics covered deep learning, probability, robotics and classical machine learning.
+          - Dissertation explored use of reinforcement learning and simulation to improve engagement in citizen science projects.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout:
+        title: Ancillary Technical Education
+        sub_title: Completed online short courses
+        description: |
+          - DeepLearning.AI Generative AI for Large Language Models: Completed February 2024.
+          - Imperial College Mathematics for ML Multivariate Calculus: Completed July 2021.
+          - Imperial College Mathematics for ML Linear Algebra Coursera: Completed September 2020.
+          - Artificial Intelligence Nanodegree: Completed September 2020.
+          - Intro To Machine Learning With TensorFlow NanoDegree: Completed April 2020.
+          - Makers Academy Software Engineering Bootcamp: Completed June 2018.
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: center
+        sub_title: Using Offline Reinforcement Learning to Trial Online Platform Interventions
+        description: |
+          Offline RL to incentivise contributions to citizen science projects. Research found a policy that learned to order incentives according to their complexity, and engagement was improved in a simulated setting.
+        link: https://medium.com/data-science/using-offline-reinforcement-learning-to-trial-online-platform-interventions
+      - layout: center
+        sub_title: The AI Delivery Problem
+        description: |
+          Musings on MLOPs misalignment and the importance of ML correctness. This is based on industry experience where the discretization of correctness and responsibility can lead to a lack of ownership and failure at aggregate.
+        link: https://medium.com/@danielmillerAI/the-ai-delivery-problem-52978e72f21
+      - layout: center
+        sub_title: Deep Learning to Predict Online Platform Engagement
+        description: |
+          Research into predicting engagement in online platforms. Compared deep learning methods to classical methods. Found improvements through the use of deep learning, but overall performance was limited by insufficient history for the majority of users.
+        link: https://medium.com/data-science/deep-learning-to-predict-engagement-in-online-platforms-dfd79515b85e
+
+
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
